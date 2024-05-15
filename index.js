@@ -71,4 +71,8 @@ console.log(lookUpProfile("vini","likes"));
 function checkEqual(name1,name2){
     return name1===name2?"You have the same name":"Your names are different";
 }
+function checkNameLenEqual(name1,name2){
+    return name1.length>name2.length?name1+" is longer than "+name2 : name2.length>name1.length?name2+" is longer than "+name1 : "your names have the same length";
+}
 console.log(checkEqual("lula","lula"))
+console.log(checkNameLenEqual("lula","pluk"))
