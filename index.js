@@ -66,4 +66,9 @@ function lookUpProfile(name,prop){
         }
     }
 }
-console.log(lookUpProfile("vini","likes"))
+console.log(lookUpProfile("vini","likes"));
+
+function checkEqual(name1,name2){
+    return name1===name2?"You have the same name":"Your names are different";
+}
+console.log(checkEqual("lula","lula"))
