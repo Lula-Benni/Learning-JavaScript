@@ -22,4 +22,5 @@ console.log("Number Of Hobbies: "+person.hobbies.length)
 person.hobbies.pop();
 console.log(person)
 person.hobbies.shift();
+person.Age=24;
 console.log(person)
