@@ -22,5 +22,9 @@ console.log("Number Of Hobbies: "+person.hobbies.length)
 person.hobbies.pop();
 console.log(person)
 person.hobbies.shift();
-person.Age=24;
+person.Age=24; //Setting a property in objects
+console.log(person)
+delete person.Country //Deleting a property in objects
+console.log(person)
+person.Continent = "Europe"; //Adding a property in objects
 console.log(person)
