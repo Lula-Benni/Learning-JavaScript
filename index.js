@@ -1,6 +1,8 @@
+var my_name = "Benni Plati";
 function myName(){
     var my_name = "Lulamile Plati";
-    console.log(my_name)
+    return my_name;
 }
-myName();
+console.log(myName());
+console.log(my_name);
 //console.log(my_name);
